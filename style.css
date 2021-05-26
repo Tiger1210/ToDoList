@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+html, body{
+  color: black;
+  background-color: #FFF8DC;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  opacity: 0.5;
+}
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+header label,header input{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  font-size: 21px;
+  display: flex;
+  border: none;
+}
+
+button.page{
+  margin: 15px;
+  background-color: #FFD700;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button.task{
+  font-size: 20px;
+  padding: 7px 14px;
+  background-color: #1E90FF;
+  color: black;
+}
+button:hover{
+  background-color: #00BFFF;
+}
+
+.entries{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default{
+  min-width: 40%;
+  list-style: none;
+}
+
+.todo{
+  margin: 0.5rem;
+  background-color: white;
+  color: black;
+  font-size: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button.complete,button.remove{
+  font-size: 20px;
+  padding: 7px 14px;
+  font-weight: bold;
+}
+
+button.complete{
+  background-color: #7CFC00;
+}
+
+button.remove{
+  background-color: #FF7F50;
+}
+
+button.complete:hover{
+  background-color: #32CD32;
+}
+
+button.remove:hover{
+  background-color: #FF4500;
+}
+
+.todo li{
+  flex: 1;
+}
+
+.todo-item{
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash{
+  pointer-events: none;
+}
+
+.fa-check{
+  pointer-events: none;
+}
+
+.done{
+  opacity: 0.5;
+}
+.data{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+.form{
+  display: flex;  
+}
+
+
+.landing{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+}
+
+.title{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.intro-list{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+  
