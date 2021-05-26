@@ -1,1 +1,2 @@
 # ToDoList
+This is a simple To-Do list created using HTML,CSS and JavaScript. It allows you to create tasks and also set starting/ending times so that you can keep track of time spent on each task. The user has the option of indicating that the task is complete and the option to delete the task entirely. My to-do list follows the format of a typical to-do list, only that it is much more simpler and more visually appealing than most online to-do lists.
